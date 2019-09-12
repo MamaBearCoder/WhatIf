@@ -22,6 +22,9 @@ public class Main {
         {
         System.out.println("The sum is" + " " + snum + "*");
         }
+        else if (snum < 200 && snum < 1000){
+            System.out.println("The sum is" + " " + "~" + snum  + "*");
+        }
         else {
             System.out.println("The sum is" + " " + snum);
         }
